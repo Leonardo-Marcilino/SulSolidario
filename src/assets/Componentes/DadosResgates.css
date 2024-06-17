@@ -1,0 +1,78 @@
+.SectionDadosResgate{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 150px;
+}
+
+.destaq{
+    color: #3592B0;
+}
+.ContainerDados{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.BoxDados{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+.BoxDados p{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.titles{
+    font-size: 2.7rem;
+}
+
+.subtitle{
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+}
+@media screen and (max-width: 1023px){
+    
+    .SectionDadosResgate{
+        background-position: center;
+    }
+
+    .SectionDadosResgate{
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .SectionDadosResgate{
+        background-position: center;
+    }
+
+    .BoxDados{
+        width: 150px;
+        height: 150px;
+        font-size: 50px;
+        padding: 0px;
+    }
+    .BoxDados p{
+        font-size: 16px;
+    }
+}

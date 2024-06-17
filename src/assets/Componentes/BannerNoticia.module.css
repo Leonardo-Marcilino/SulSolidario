@@ -1,0 +1,75 @@
+.Banner{
+    background-image: url("../imagens/causa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    text-align: center;
+   font-family: poppins;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 100px;
+   padding: 10px;
+}
+
+.banner2{
+    background-image: url("../imagens/Enchente_RioGrandedoSul_Reuters_1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+   font-family: poppins;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 83px;
+   padding: 10px;
+
+}
+
+.banner3{
+    background-image: url("../imagens/doe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    height: 400px;
+    text-align: center;
+   font-family: poppins;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 10px;
+   margin-top: 85px;
+
+}
+
+
+.titulo_banner{
+    margin: 0;
+    font-size:4rem;
+    color: #fff;
+    font-weight: 700;
+}
+.subtitulo_banner{
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+@media screen and (max-width: 980px){
+
+    .Banner{
+        height: 200px;
+    }
+    .titulo_banner{
+        font-size: 3rem;
+    }
+
+    .subtitulo_banner{
+        font-size: 1.2rem;
+    }
+}

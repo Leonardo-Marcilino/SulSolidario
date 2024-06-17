@@ -1,0 +1,52 @@
+.SectionCampanhas{
+  width: 100%;
+  text-align: center;
+  color: black;
+  margin: 50px 0px;
+}
+.BoxTitleCampanhas{
+  margin-bottom: 50px;
+}
+.SubTitleCampanhas{
+  font-size: 40px;
+}
+
+.subtitle{
+  color: rgba(0, 0, 0, 0.70);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+.Logos{
+  height: 300px;
+}
+
+/* Para dispositivos com largura máxima de 649px (celulares) */
+@media screen and (max-width: 649px) {
+        .Logos {
+          width: 90px; 
+          height: 120px; 
+        }
+
+        p.subtitle{
+          font-size: 1rem;
+          text-align: center;
+          width: 70%;
+          margin: auto;
+      }
+
+      .titles {
+           font-size: 2rem;
+            }
+          }
+
+/* Para dispositivos com largura entre 650px e 1280px (tablets) */
+@media screen and (min-width: 650px) and (max-width: 1280px) {
+  .Logos {
+    min-width: 160px; 
+    height: 200px; 
+  }
+}
+
+

@@ -1,0 +1,159 @@
+.conteudo {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.container_conteudo {
+    max-width: 1300px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 2rem;
+    margin: 0px;
+    font-weight: 700;
+    padding: 0px;
+}
+
+.destaque {
+    color: #276E85;
+
+}
+
+.subtitulo {
+    margin: 0;
+    font-weight: 400;
+}
+
+.container_noticias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.card_noticia {
+    height: 300px;
+    width: 470px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.noticia_destaque {
+    height: 300px;
+    width: 75%;
+    object-fit: cover;
+    background-color: blue;
+    border-radius: 10px
+}
+
+.container_fake {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.fake_title {
+    color: red;
+}
+
+/* modal */
+
+.modal {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 36px;
+    width: 100%;
+    background-color: rgba(52, 52, 52, 0.708);
+    position: fixed;
+    z-index: 999;
+}
+
+.modal_content {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    gap: 60px;
+    padding: 60px 0px;
+    margin-bottom: 300px;
+}
+
+.modal_title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.emissoras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.img_emissora {
+    height: 100%;
+    object-fit: scale-down;
+    width: 100%;
+  
+}
+
+.logo_emissora {
+    height:55px;
+    width: 55px;
+}
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:700px) {
+
+    .container_noticias {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container_titulo {
+        text-align: center;
+    }
+
+    .modal{
+        margin-top: 0;
+    }
+
+    .modal_content{
+        width: 300px;
+        height: auto;
+        margin-top: 200px;
+        padding: 60px 30px;
+
+    }
+
+}
